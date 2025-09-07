@@ -1,3 +1,105 @@
-theme: jekyll-theme-minimal
-title: shlok's homepage
-description: Bookmark this to keep an eye on my project updates!
+# Site settings
+title: Shlok Agarwal
+email: agarwalshlok92@example.com
+description: >-
+  Robotics Engineer passionate about autonomous systems, machine learning, 
+  and cutting-edge robotic solutions. Specializing in motion planning, 
+  computer vision, and embedded systems development.
+baseurl: ""
+url: "https://shlok-agarwal.github.io"
+twitter_username: your_twitter
+github_username: shlok-agarwal
+linkedin_username: https://www.linkedin.com/in/shlokagarwal/
+
+# Custom domain
+# domain: shlokagarwal.com
+# url: https://shlokagarwal.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+header_pages:
+  - about.md
+  - projects.md
+  - research.md
+  - blog.md
+  - resume.md
+  - contact.md
+
+# Author information
+author:
+  name: Shlok Agarwal
+  email: agarwalshlok92@gmail.com
+  bio: >-
+    Lead Controls Software Engineer at Ghost Robotics with 7+ years of experience
+    in legged locomotion, proprioceptive control, and autonomous robotic systems.
+    IEEE Senior Member and published researcher in humanoid robotics.
+  location: "Philadelphia, Pennsylvania, USA"
+  
+# Social media links
+social:
+  github: shlok-agarwal
+  linkedin: shlokagarwal
+  email: agarwalshlok92@gmail.com
+
+# Research interests
+research_interests:
+  - Legged Locomotion
+  - Proprioceptive Control
+  - Whole-Body Control
+  - Recovery Behaviors
+  - Robot Dynamics & Kinematics
+  - Terrain-Adaptive Gaits
+
+# Skills
+technical_skills:
+  Programming:
+    - C++
+    - Python
+    - MATLAB
+    - Bash
+    - ROS/ROS2
+  Robotics:
+    - Legged Locomotion Control
+    - Whole-Body Control (WBC)
+    - State Estimation
+    - Sensor Fusion
+    - Motion Planning
+    - Behavior State Machines (FSMs)
+  Hardware:
+    - Embedded Systems
+    - Real-time Control Architecture
+    - Robot Assembly & Testing
+    - Field Deployment
+  Tools:
+    - Git
+    - CI/CD
+    - AWS
+    - Simulation Frameworks
+    - CAD (Solidworks)

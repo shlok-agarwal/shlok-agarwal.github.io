@@ -21,7 +21,7 @@ Key considerations include:
 - **Joint placement:** Proper spacing ensures that the robot can balance and move naturally without collisions.  
 - **Ease of assembly:** Modular designs help in quick assembly and replacement of faulty parts.  
 
-![Robot structure](images/robot_structure.jpg)  
+![Robot structure](/assets/images/robot_structure.jpg)  
 
 During my first project, I realized the importance of **iterative design**: initial ideas rarely work perfectly, so prototyping and testing each part is crucial. CAD tools like SolidWorks or Fusion 360 can help visualize assemblies and detect mechanical conflicts early.  
 
@@ -41,7 +41,7 @@ Servo motors are the backbone of actuation in humanoid robots. Choosing the righ
 - **Voltage and control:** Ensure compatibility with your electronics and control interface.  
 - **Reliability:** High-quality servos last longer and provide more consistent motion, especially under continuous use.  
 
-![3D printed parts and servo motors](images/robot_actuators.png)  
+![3D printed parts and servo motors](/assets/images/robot_actuators.png)  
 
 During my project, integrating the servos into the mechanical frame required careful alignment and calibration. Even a slight misalignment can introduce unnecessary stress and affect motion smoothness.  
 

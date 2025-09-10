@@ -25,7 +25,7 @@ Robots can use sensors (GPS, odometry, range sensors) to estimate position, but 
 
 For outdoor scenarios with many sensors, Kalman filters (and variants) are often used to fuse sensor data into a single estimate. For many indoor robots (where GPS is unavailable or unreliable), **particle filters** are a practical choice for localization.
 
-![Sensor fusion idea: weighted sum of sensors](images/eq1.png)
+![Sensor fusion idea: weighted sum of sensors](/assets/images/eq1.png)
 
 ---
 
@@ -41,11 +41,11 @@ A particle filter estimates the robot’s pose by maintaining many *particles* (
 
 **Important constraint:** particle filters assume a *known map* (positions of obstacles and landmarks are known). A simple map representation could be a grid where `1` indicates free space and `0` indicates obstacles; some `0` cells represent landmarks.
 
-![Example map: 1 = free space, 0 = obstacles, red 0s = landmarks](images/map.png)
+![Example map: 1 = free space, 0 = obstacles, red 0s = landmarks](/assets/images/map.png)
 
 In the figure below the green square is the robot and the red lines indicate range sensor beams to landmarks. The robot localizes by comparing its measured distances to landmarks with the distances a particle would observe if the robot were actually at that particle’s pose.
 
-![Robot & range lines to landmarks](images/robotinmap.png)
+![Robot & range lines to landmarks](/assets/images/robotinmap.png)
 
 ---
 
@@ -89,7 +89,7 @@ At each timestep, the robot measures distances to landmarks using sensors (stere
 
 For a particle with known coordinates (e.g., `(40,40)`), and known landmark coordinates (e.g., `(20,20)` and `(80,20)`), compute Euclidean distances:
 
-![Distance example equation](images/eq2.png)
+![Distance example equation](/assets/images/eq2.png)
 
 ---
 
@@ -102,12 +102,12 @@ Sensor readings have noise. We model the likelihood of a particle’s predicted 
 
 A uniform distribution would give every value equal probability (not useful here); the Gaussian places higher probability near the mean and lower in the tails.
 
-![Uniform distribution (for contrast)](images/uniform_distribution.gif)  
-![Gaussian / normal distribution](images/normal1.jpg)
+![Uniform distribution (for contrast)](/assets/images/uniform_distribution.gif)  
+![Gaussian / normal distribution](/assets/images/normal1.jpg)
 
 If you have `m` landmarks, each particle yields `m` likelihood values (one per landmark). Multiply those `m` likelihoods to get the particle’s combined weight (equivalent to the product of independent likelihoods). The result is a single scalar weight per particle. Then normalize across all particles (next step).
 
-![Visualization: robot and particle measurements on gaussian curve](images/normal2.jpg)
+![Visualization: robot and particle measurements on gaussian curve](/assets/images/normal2.jpg)
 
 ---
 
@@ -115,7 +115,7 @@ If you have `m` landmarks, each particle yields `m` likelihood values (one per l
 
 Normalize weights so they sum to 1:
 
-![Weight normalization equation](images/eq3.png)
+![Weight normalization equation](/assets/images/eq3.png)
 
 ---
 

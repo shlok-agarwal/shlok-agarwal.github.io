@@ -17,7 +17,7 @@ I'm always excited to discuss robotics, explore collaboration opportunities, or 
 
 **LinkedIn**: [linkedin.com/in/shlokagarwal](https://linkedin.com/in/shlokagarwal)  
 **GitHub**: [github.com/shlok-agarwal](https://github.com/shlok-agarwal)  
-**Google Scholar**: [View Publications](https://scholar.google.com/citations?user=your_id)
+**Google Scholar**: [View Publications & Citations](https://scholar.google.com/citations?user=shlok-agarwal)
 
 ## What I'm Interested In
 
@@ -81,4 +81,12 @@ I'm available for:
 
 ---
 
-*Looking forward to connecting with you!*
+## Professional Resources
+
+To learn more about my work and expertise:
+
+**[Technical Publications & Research](/research)** • **[Project Portfolio & Case Studies](/projects)** • **[Professional Background & Experience](/about)** • **[Resume & Achievements](/resume)**
+
+---
+
+*Looking forward to connecting with you and exploring how we can advance robotics together!*

@@ -1,10 +1,9 @@
 # Site settings
 title: Shlok Agarwal
-email: agarwalshlok92@example.com
 description: >-
-  Robotics Engineer passionate about autonomous systems, machine learning, 
-  and cutting-edge robotic solutions. Specializing in motion planning, 
-  computer vision, and embedded systems development.
+  Lead Controls Software Engineer specializing in legged robotics, proprioceptive control, 
+  and autonomous systems. Expert in real-world robot deployments, whole-body control, 
+  and developing robust algorithms for challenging environments.
 baseurl: ""
 url: "https://shlok-agarwal.github.io"
 github_username: shlok-agarwal
@@ -45,10 +44,10 @@ collections:
 # Navigation
 header_pages:
   - about.md
-  - projects.md
   - research.md
-  - blog.md
+  - projects.md
   - resume.md
+  - blog.md
   - contact.md
   
 # Social media links
@@ -56,3 +55,6 @@ social:
   github: shlok-agarwal
   linkedin: shlokagarwal
   email: agarwalshlok92@gmail.com
+
+# Footer email (for minima theme compatibility)
+email: agarwalshlok92@gmail.com

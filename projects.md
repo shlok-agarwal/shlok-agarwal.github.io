@@ -174,4 +174,10 @@ Created internal tools and documentation workflows that improved team efficiency
 
 ---
 
-*For detailed technical discussions about any of these projects, feel free to [reach out](mailto:agarwalshlok92@gmail.com).*
+## Interested in My Work?
+
+These projects represent years of dedicated research and development in advancing the state of legged robotics. Each demonstrates my commitment to creating robust, real-world solutions that push the boundaries of what autonomous systems can achieve.
+
+**[Research Publications](/research)** • **[Professional Experience](/resume)** • **[Technical Background](/about)** • **[Discuss Collaboration](/contact)**
+
+*From concept to deployment - building the next generation of autonomous robots.*

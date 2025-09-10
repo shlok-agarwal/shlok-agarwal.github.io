@@ -52,7 +52,7 @@ Developed ZMP-based walking controller for 16-DOF humanoid robot "Nino"
 
 ## Research & Publications
 
-My research focuses on advancing legged robotion capabilities through proprioceptive control and adaptive behaviors. I've published 7 peer-reviewed papers with 93+ citations, including work on:
+My research focuses on advancing legged robotics capabilities through proprioceptive control and adaptive behaviors. I've published 7 peer-reviewed papers with 93+ citations, including work on:
 
 - Humanoid locomotion enhancement through toe joint design
 - Stability analysis for robot-assisted balance systems
@@ -76,7 +76,9 @@ I believe robotics has the potential to solve real-world challenges by operating
 
 ## Let's Connect
 
-I'm always excited to discuss robotics, share insights about legged locomotion, or explore collaboration opportunities. Whether you're interested in the technical details of proprioceptive control or the broader implications of mobile robotics, I'd love to hear from you. Contact details should be in the footer.
+I'm always excited to discuss robotics, share insights about legged locomotion, or explore collaboration opportunities. Whether you're interested in the technical details of proprioceptive control or the broader implications of mobile robotics, I'd love to hear from you.
+
+**[Research Publications](/research)** • **[Current Projects](/projects)** • **[Professional Resume](/resume)** • **[Contact Information](/contact)**
 
 ---
 

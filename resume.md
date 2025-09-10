@@ -161,4 +161,10 @@ Lead Controls Software Engineer with 10+ years of specialized experience in legg
 
 ---
 
+## Connect With Me
+
+Ready to discuss opportunities, collaborations, or technical challenges? Let's connect and explore how we can work together to advance the field of robotics.
+
+**[Research & Publications](/research)** • **[Project Portfolio](/projects)** • **[Technical Background](/about)** • **[Contact Information](/contact)**
+
 *Download PDF version: [Resume](Shlok-Resume.pdf)*

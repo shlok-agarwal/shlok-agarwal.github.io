@@ -8,6 +8,8 @@ permalink: /blog/
 
 Welcome to my blog where I share insights about robotics, legged locomotion, and the journey of bringing advanced robotic systems from research to real-world deployment. Here you'll find technical deep-dives, industry perspectives, and lessons learned from years of working with cutting-edge robotic platforms.
 
+> *Bridging the gap between robotics research and real-world deployment, one post at a time.*
+
 ---
 
 ## Latest Posts
@@ -91,6 +93,12 @@ Technical insights into developing algorithms that enable legged robots to navig
 Want to stay updated with new posts? Connect with me on [LinkedIn](https://linkedin.com/in/shlokagarwal) where I share updates about new blog posts, industry insights, and technical discussions.
 
 ---
+
+## Stay Connected
+
+Want to dive deeper into robotics discussions, explore collaboration opportunities, or learn more about my professional work? Here are the best ways to connect:
+
+**[Research & Publications](/research)** • **[Technical Projects](/projects)** • **[Professional Resume](/resume)** • **[Contact Information](/contact)**
 
 ## Suggest a Topic
 

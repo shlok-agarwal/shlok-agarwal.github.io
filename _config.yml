@@ -44,8 +44,6 @@ collections:
 # Navigation
 header_pages:
   - about.md
-  - research.md
-  - projects.md
   - resume.md
   - blog.md
   - contact.md

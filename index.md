@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# Welcome to My Robotics Universe
-
 I'm **Shlok Agarwal**, Lead Controls Software Engineer at Ghost Robotics, where I specialize in legged locomotion, proprioceptive control, and autonomous robotic systems. With over a decade of experience in robotics, I bridge cutting-edge research with real-world deployments across defense, industrial, and exploration applications.
 
 ## What I Do

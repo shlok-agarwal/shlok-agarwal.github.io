@@ -76,10 +76,7 @@ I believe robotics has the potential to solve real-world challenges by operating
 
 ## Let's Connect
 
-I'm always excited to discuss robotics, share insights about legged locomotion, or explore collaboration opportunities. Whether you're interested in the technical details of proprioceptive control or the broader implications of mobile robotics, I'd love to hear from you.
-
-- **Email**: [agarwalshlok92@gmail.com](mailto:agarwalshlok92@gmail.com)
-- **LinkedIn**: [linkedin.com/in/shlokagarwal](https://linkedin.com/in/shlokagarwal)
+I'm always excited to discuss robotics, share insights about legged locomotion, or explore collaboration opportunities. Whether you're interested in the technical details of proprioceptive control or the broader implications of mobile robotics, I'd love to hear from you. Contact details should be in the footer.
 
 ---
 

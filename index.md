@@ -2,7 +2,7 @@
 layout: home
 ---
 
-I'm **Shlok Agarwal**, Lead Controls Software Engineer at Ghost Robotics, where I specialize in legged locomotion, proprioceptive control, and autonomous robotic systems. With over a decade of experience in robotics, I bridge cutting-edge research with real-world deployments across defense, industrial, and exploration applications.
+I'm **Shlok Agarwal**, Lead Controls Software Engineer at Ghost Robotics, where I specialize in legged locomotion, manipulation, and autonomous robotic systems. With over a decade of experience in robotics, I bridge cutting-edge research with real-world deployments across defense, industrial, and exploration applications.
 
 > "Creating robots that can walk through the world, not just see it."
 
@@ -19,28 +19,17 @@ I currently lead the controls software development at Ghost Robotics, focusing o
 
 ## Latest Updates
 
-**🚀 Leadership Role**: Promoted to Lead Controls Software Engineer at Ghost Robotics
-
-**📝 Recent Patent**: Filed patent for proprioceptive robotic door opening system
-
-**🏆 IEEE Recognition**: Achieved IEEE Senior Member status, Associate Editor for AIM 2025 and ICRA 2026
-
-**🌏 Global Impact**: Coordinated successful robot deployments in India
+- **🚀 Leadership Role**: Promoted to Lead Controls Software Engineer at Ghost Robotics
+- **📝 Recent Patent**: Patent granted for proprioceptive robotic door opening system
+- **🏆 IEEE Recognition**: Achieved IEEE Senior Member status, Associate Editor for AIM 2025 and ICRA 2026
+- **🌏 Global Impact**: Coordinated successful robot deployments in India
 
 ## Quick Stats
 
-- **Years of Experience**: 10+ years in robotics and legged locomotion
-- **Publications**: 7 peer-reviewed papers with 93+ citations
+- **Years of Experience**: 10+ years in robotics specializing in legged locomotion and manipulation
+- **Publications**: 7 peer-reviewed papers during my academia years with 93+ citations
 - **Peer Reviews**: 20 peer-reviewed papers in notable robotics and controls conferences
 - **Global Deployments**: Supported robot deployments across multiple continents
-- **Patents**: Filed proprioceptive control and manipulation patent
+- **Patents**: Lead Inventor for proprioceptive robotic door opening system
 
 ---
-
-## Ready to Collaborate?
-
-Whether you're looking for technical expertise, research partnerships, or innovative solutions to robotics challenges, I'd love to discuss how we can work together.
-
-**[View My Research](/research)** • **[Explore Projects](/projects)** • **[Download Resume](/resume)** • **[Get in Touch](/contact)**
-
-*Building the future of autonomous robotics, one step at a time.*

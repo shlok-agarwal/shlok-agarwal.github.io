@@ -7,9 +7,8 @@ permalink: /resume/
 # Shlok Agarwal
 **Lead Controls Software Engineer**
 
-📧 [agarwalshlok92@gmail.com](mailto:agarwalshlok92@gmail.com)  
-🔗 [linkedin.com/in/shlokagarwal](https://linkedin.com/in/shlokagarwal)  
-🐙 [github.com/shlok-agarwal](https://github.com/shlok-agarwal)  
+📧 [mail](mailto:agarwalshlok92@gmail.com)  
+🔗 [linkedin](https://linkedin.com/in/shlokagarwal)  
 📍 Newark, NJ | Philadelphia, PA
 
 ---
@@ -113,17 +112,35 @@ Lead Controls Software Engineer with 10+ years of specialized experience in legg
 
 ## Publications & Patents
 
-### **Peer-Reviewed Publications** (7 papers, 93+ citations)
+[**Stability of mina v2 for robot-assisted balance and locomotion**  ](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2018.00062/full)
+C Mummolo, WZ Peng, **S Agarwal**, R Griffin, PD Neuhaus, JH Kim  
+*Frontiers in Neurorobotics*, 2018  
 
-1. **V Jagtap, S Agarwal**, A Wagh, M Gennert. "Transportable open-source application program interface and user interface for generic humanoids: TOUGH." *International Journal of Advanced Robotic Systems*, 2020
+[**Transportable open-source application program interface and user interface for generic humanoids: TOUGH**  ](https://journals.sagepub.com/doi/full/10.1177/1729881420921607)
+V Jagtap, **S Agarwal**, A Wagh, M Gennert  
+*International Journal of Advanced Robotic Systems*, 2020  
 
-2. **S Agarwal**, M Popovic. "Study of toe joints to enhance locomotion of humanoid robots." *IEEE-RAS Humanoid Robots Conference*, 2018
+### Conference Papers
 
-3. C Mummolo, WZ Peng, **S Agarwal**, et al. "Stability of mina v2 for robot-assisted balance and locomotion." *Frontiers in Neurorobotics*, 2018 (52 citations)
+[**Study of toe joints to enhance locomotion of humanoid robots**](https://www.researchgate.net/profile/Marko-Popovic/publication/330629710_Study_of_Toe_Joints_to_Enhance_Locomotion_of_Humanoid_Robots/links/5cf0b73fa6fdcc8475f8c405/Study-of-Toe-Joints-to-Enhance-Locomotion-of-Humanoid-Robots.pdf)  
+**S Agarwal**, M Popovic  
+*2018 IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids)*  
 
-### **Patents**
+[**Extended State Machines for Robust Robot Performance in Complex Tasks**](https://www.researchgate.net/profile/Shlok-Agarwal/publication/330632267_Extended_State_Machines_for_Robust_Robot_Performance_in_Complex_Tasks/links/67b52e67461fb56424df8f40/Extended-State-Machines-for-Robust-Robot-Performance-in-Complex-Tasks.pdf)  
+V Jagtap, **S Agarwal**, S Nirmal, S Kejriwal, MA Gennert  
+*2018 IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids)*  
 
-**S Agarwal**, Avik DE. "System and method for proprioceptive and responsive robotic door opening." *US Patent WO2025042812A1*, 2025
+[**Design and fabrication of twinrotor UAV**](https://www.csitcp.org/paper/3/38csit30.pdf)  
+**S Agarwal**, A Mohan, K Kumar  
+*Computer Science & Information Technology (CS & IT)*, 2013  
+
+[**Mathematical Modeling and Control System Design of Tiltrotor UAV**](https://www.researchgate.net/profile/Shlok-Agarwal/publication/305652576_Mathematical_Modeling_and_Control_System_Design_of_Tiltrotor_UAV/links/67b52df18311ce680c699a33/Mathematical-Modeling-and-Control-System-Design-of-Tiltrotor-UAV.pdf)  
+**S Agarwal**, A Mohan, K Kumar  
+*International Journal of Scientific & Engineering Research*, 2013  
+
+[**System and method for proprioceptive and responsive robotic door opening**](https://patentimages.storage.googleapis.com/32/52/8f/368f9da0829893/US20220193905A1.pdf)  
+**S Agarwal**, Avik DE  
+*US Patent WO2025042812A1*, 2025  
 
 ---
 

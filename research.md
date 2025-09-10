@@ -26,44 +26,37 @@ Creating terrain-adaptive locomotion strategies that automatically adjust robot 
 
 ### Peer-Reviewed Journal Articles
 
-**Transportable open-source application program interface and user interface for generic humanoids: TOUGH**  
-V Jagtap, **S Agarwal**, A Wagh, M Gennert  
-*International Journal of Advanced Robotic Systems*, 2020  
-[View Publication](https://journals.sagepub.com/doi/full/10.1177/1729881420921607)
-
-**Stability of mina v2 for robot-assisted balance and locomotion**  
+[**Stability of mina v2 for robot-assisted balance and locomotion**  ](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2018.00062/full)
 C Mummolo, WZ Peng, **S Agarwal**, R Griffin, PD Neuhaus, JH Kim  
 *Frontiers in Neurorobotics*, 2018  
-[View Publication](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2018.00062/full) | 52 citations
+
+[**Transportable open-source application program interface and user interface for generic humanoids: TOUGH**  ](https://journals.sagepub.com/doi/full/10.1177/1729881420921607)
+V Jagtap, **S Agarwal**, A Wagh, M Gennert  
+*International Journal of Advanced Robotic Systems*, 2020  
 
 ### Conference Papers
 
-**Study of toe joints to enhance locomotion of humanoid robots**  
+[**Study of toe joints to enhance locomotion of humanoid robots**](https://www.researchgate.net/profile/Marko-Popovic/publication/330629710_Study_of_Toe_Joints_to_Enhance_Locomotion_of_Humanoid_Robots/links/5cf0b73fa6fdcc8475f8c405/Study-of-Toe-Joints-to-Enhance-Locomotion-of-Humanoid-Robots.pdf)  
 **S Agarwal**, M Popovic  
 *2018 IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids)*  
-[View Publication](https://www.researchgate.net/profile/Marko-Popovic/publication/330629710_Study_of_Toe_Joints_to_Enhance_Locomotion_of_Humanoid_Robots/links/5cf0b73fa6fdcc8475f8c405/Study-of-Toe-Joints-to-Enhance-Locomotion-of-Humanoid-Robots.pdf) | 10 citations
 
-**Extended State Machines for Robust Robot Performance in Complex Tasks**  
+[**Extended State Machines for Robust Robot Performance in Complex Tasks**](https://www.researchgate.net/profile/Shlok-Agarwal/publication/330632267_Extended_State_Machines_for_Robust_Robot_Performance_in_Complex_Tasks/links/67b52e67461fb56424df8f40/Extended-State-Machines-for-Robust-Robot-Performance-in-Complex-Tasks.pdf)  
 V Jagtap, **S Agarwal**, S Nirmal, S Kejriwal, MA Gennert  
 *2018 IEEE-RAS 18th International Conference on Humanoid Robots (Humanoids)*  
-[View Publication](https://www.researchgate.net/profile/Shlok-Agarwal/publication/330632267_Extended_State_Machines_for_Robust_Robot_Performance_in_Complex_Tasks/links/67b52e67461fb56424df8f40/Extended-State-Machines-for-Robust-Robot-Performance-in-Complex-Tasks.pdf)
 
-**Design and fabrication of twinrotor UAV**  
+[**Design and fabrication of twinrotor UAV**](https://www.csitcp.org/paper/3/38csit30.pdf)  
 **S Agarwal**, A Mohan, K Kumar  
 *Computer Science & Information Technology (CS & IT)*, 2013  
-[View Publication](https://www.csitcp.org/paper/3/38csit30.pdf) | 16 citations
 
-**Mathematical Modeling and Control System Design of Tiltrotor UAV**  
+[**Mathematical Modeling and Control System Design of Tiltrotor UAV**](https://www.researchgate.net/profile/Shlok-Agarwal/publication/305652576_Mathematical_Modeling_and_Control_System_Design_of_Tiltrotor_UAV/links/67b52df18311ce680c699a33/Mathematical-Modeling-and-Control-System-Design-of-Tiltrotor-UAV.pdf)  
 **S Agarwal**, A Mohan, K Kumar  
 *International Journal of Scientific & Engineering Research*, 2013  
-[View Publication](https://www.researchgate.net/profile/Shlok-Agarwal/publication/305652576_Mathematical_Modeling_and_Control_System_Design_of_Tiltrotor_UAV/links/67b52df18311ce680c699a33/Mathematical-Modeling-and-Control-System-Design-of-Tiltrotor-UAV.pdf)
 
 ### Patents
 
-**System and method for proprioceptive and responsive robotic door opening**  
+[**System and method for proprioceptive and responsive robotic door opening**](https://patentimages.storage.googleapis.com/32/52/8f/368f9da0829893/US20220193905A1.pdf)  
 **S Agarwal**, Avik DE  
 *US Patent WO2025042812A1*, 2025  
-[View Patent](https://patentimages.storage.googleapis.com/32/52/8f/368f9da0829893/US20220193905A1.pdf)
 
 ## Citation Metrics
 

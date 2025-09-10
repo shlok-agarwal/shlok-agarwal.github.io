@@ -5,8 +5,8 @@ permalink: /resume/
 ---
 
 ## Shlok Agarwal
-**Lead Controls Software Engineer**
-📧 [email](mailto:agarwalshlok92@gmail.com)  , 🔗 [linkedin](https://linkedin.com/in/shlokagarwal) ,📍 Newark, NJ | Philadelphia, PA
+**Lead Controls Software Engineer @ Ghost Robotics**      
+📧 [email](mailto:agarwalshlok92@gmail.com)  , 🔗 [linkedin](https://linkedin.com/in/shlokagarwal) ,📍 Newark, NJ | Philadelphia, PA        
 *Download full [resume](Shlok-Resume.pdf)*
 
 ---
@@ -19,48 +19,45 @@ Lead Controls Software Engineer with 10+ years of specialized experience in legg
 
 ### Experience
 
-#### **Lead Controls Software Engineer**
-**Ghost Robotics** | *Philadelphia, PA* | *January 2025 - Present*
+#### **Ghost Robotics**, *Philadelphia, PA* · *2018 – Present*  
 
-- Lead low-level software development and arm behavior systems for quadruped robots
-- Direct software release planning, testing, and high-priority customer support resolution
-- Develop advanced manipulation behaviors including door opening and payload management
-- Enhanced joint-level torque safety algorithms for improved operational reliability
+**Lead Controls Software Engineer** · *Jan 2025 – Present*  
+- Lead low-level software development and arm behavior systems for quadruped robots  
+- Direct software release planning, testing, and high-priority customer support resolution  
+- Develop advanced manipulation behaviors including door opening and payload management  
+- Enhanced joint-level torque safety algorithms for improved operational reliability  
 
-#### **Senior Controls & Behavior Engineer**
-**Ghost Robotics** | *Philadelphia, PA* | *March 2021 - November 2024*
+**Senior Controls & Behavior Engineer** · *Mar 2021 – Nov 2024*  
+- Led development of blind gait strategies and auto-transition behaviors for steep inclines  
+- Built proprioceptive force observer for contact detection and whole-body control integration  
+- Maintained recovery controller and self-righting behaviors with continuous performance improvements  
+- Represented company in high-stakes defense demos and international deployments  
+- Integrated arm control stack for door opening, manipulation, and teleoperated missions  
+- Provided hands-on support to major clients including US Air Force and Australian Army  
+- Coordinated logistics for strategic visits to India, contributing to 100-robot orders  
 
-- Led development of blind gait strategies and auto-transition behaviors for steep inclines
-- Built proprioceptive force observer for contact detection and whole-body control integration
-- Maintained recovery controller and self-righting behaviors with continuous performance improvements
-- Represented company in high-stakes defense demos and international deployments
-- Integrated arm control stack for door opening, manipulation, and teleoperated missions
-- Provided hands-on support to major clients including US Air Force and Australian Army
-- Coordinated logistics for strategic visits to India, contributing to 100-robot orders
+**Controls & Behavior Engineer** · *Jun 2018 – Mar 2021*  
+- Designed and implemented robust self-righting algorithms across various fall configurations  
+- Developed early proprioceptive gait algorithms for stairs, hills, curbs, and slippery terrains  
+- Created blind reflexes and terrain-agnostic locomotion for obstacle courses  
+- Contributed to optimization-based stance control and Cartesian swing trajectory modules  
+- Participated in robot assembly, repair, field testing, and QA for Vision series deployments  
+- Supported initial field deployments across multiple terrains and use cases  
 
-#### **Controls & Behavior Engineer**
-**Ghost Robotics** | *Philadelphia, PA* | *June 2018 - March 2021*
+#### **Institute of Human and Machine Congition(IHMC)**, *Pensacola, FL* · *Jun 2017 – Nov 2017*  
 
-- Designed and implemented robust self-righting algorithms across various fall configurations
-- Developed early proprioceptive gait algorithms for stairs, hills, curbs, and slippery terrains
-- Created blind reflexes and terrain-agnostic locomotion for obstacle courses
-- Contributed to optimization-based stance control and Cartesian swing trajectory modules
-- Participated in robot assembly, repair, field testing, and QA for Vision series deployments
-- Supported initial field deployments across multiple terrains and use cases
+**Robotics Software Intern**  
+- Developed equivalent mechanical model of MinaV2 exoskeleton system  
+- Analyzed human-exoskeleton dynamics for balance and locomotion assistance  
+- Contributed to research published in *Frontiers in Neurorobotics* (52+ citations)  
 
-#### **Robotics Software Intern**
-**IHMC** | *Pensacola, FL* | *June 2017 - November 2017*
+#### **Sirena Technologies**, *Bangalore, India* · *Sep 2014 – Aug 2016*  
 
-- Developed equivalent mechanical model of MinaV2 exoskeleton system
-- Analyzed human-exoskeleton dynamics for balance and locomotion assistance
-- Contributed to research published in Frontiers in Neurorobotics (52+ citations)
+**Design Engineer, Mechatronics**  
+- Designed structural CAD model for 16-DOF humanoid robot *“Nino”*  
+- Formulated ZMP-based walking controller for stable bipedal locomotion  
+- Managed design, analysis, vendor relationships, and procurement for actuators and components  
 
-#### **Design Engineer, Mechatronics**
-**Sirena Technologies** | *Bangalore, India* | *September 2014 - August 2016*
-
-- Designed structural CAD model for 16-DOF humanoid robot "Nino"
-- Formulated ZMP-based walking controller for stable bipedal locomotion
-- Managed design, analysis, vendor relationships, and procurement for actuators and components
 
 ---
 

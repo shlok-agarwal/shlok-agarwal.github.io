@@ -94,12 +94,6 @@ Want to stay updated with new posts? Connect with me on [LinkedIn](https://linke
 
 ---
 
-## Stay Connected
-
-Want to dive deeper into robotics discussions, explore collaboration opportunities, or learn more about my professional work? Here are the best ways to connect:
-
-**[Research & Publications](/research)** • **[Technical Projects](/projects)** • **[Professional Resume](/resume)** • **[Contact Information](/contact)**
-
 ## Suggest a Topic
 
 Have a question about legged robotics, proprioceptive control, or the robotics industry? I'm always looking for new topics to explore. Send me your suggestions at [agarwalshlok92@gmail.com](mailto:agarwalshlok92@gmail.com).

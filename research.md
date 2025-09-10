@@ -130,6 +130,5 @@ I'm actively seeking collaborations in:
 - **Speaking Engagements**: Conferences, workshops, and technical presentations
 - **Mentoring**: Graduate students and early-career robotics engineers
 
-**[View Current Projects](/projects)** • **[Professional Background](/about)** • **[Contact Information](/contact)**
 
 *Ready to push the boundaries of legged robotics together?*

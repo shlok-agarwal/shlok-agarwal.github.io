@@ -10,7 +10,7 @@ I'm **Shlok Agarwal**, Lead Controls Software Engineer at Ghost Robotics, where 
 
 🦾 **Legged Locomotion** - Developing adaptive gaits and recovery behaviors for quadruped robots  
 🧠 **Manipulation** - Improving manipulation control and developing applications to extend quadruped capabilities  
-⚡ **Sustainable Software Development** - Create and maintain reliable software by navigating the complexities of product development and deployment.
+⚡ **Sustainable Software Development** - Create and maintain reliable software by navigating the complexities of product development and deployment.    
 🌍 **Real-World Deployment** - Supporting military and industrial clients with field-tested solutions  
 
 ## Current Focus
@@ -27,9 +27,9 @@ I currently lead the controls software development at Ghost Robotics, focusing o
 ## Quick Stats
 
 - **Years of Experience**: 10+ years in robotics specializing in legged locomotion and manipulation
+- **Global Deployments**: Supported robot deployments across multiple continents
 - **Publications**: 7 peer-reviewed papers during my academia years with 93+ citations
 - **Peer Reviews**: 20 peer-reviewed papers in notable robotics and controls conferences
-- **Global Deployments**: Supported robot deployments across multiple continents
 - **Patents**: Lead Inventor for proprioceptive robotic door opening system
 
 ---

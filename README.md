@@ -30,11 +30,8 @@ This is the source code for Shlok Agarwal's personal website, built with Jekyll 
 ├── _projects/           # Project collection
 ├── index.md             # Home page
 ├── about.md             # About page
-├── research.md          # Research & publications
-├── projects.md          # Projects portfolio
 ├── blog.md              # Blog listing
 ├── resume.md            # Professional resume
-├── contact.md           # Contact information
 ├── CNAME                # Custom domain configuration
 └── README.md            # This file
 ```

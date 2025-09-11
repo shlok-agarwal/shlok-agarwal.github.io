@@ -10,8 +10,8 @@ github_username: shlok-agarwal
 linkedin_username: shlokagarwal
 
 # Custom domain
-# domain: shlokagarwal.com
-# url: https://shlokagarwal.com
+domain: shlokagarwal.com
+url: https://shlokagarwal.com
 
 # Build settings
 markdown: kramdown

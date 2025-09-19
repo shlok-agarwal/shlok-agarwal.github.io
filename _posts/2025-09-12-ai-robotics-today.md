@@ -1,0 +1,74 @@
+---
+layout: post
+title: "AI in Robotics: What should you work on today!"
+date: 2025-09-12
+categories: [robotics, AI]
+tags: [AI]
+---
+
+
+# AI in Robotics: What should you work on today!
+
+The last decade has witnessed impressive advancements in Artificial Intelligence (AI) technologies, particularly with Deep Learning (DL) over multi-layer artificial neural networks (ANNs). Driven by powerful computing platforms like Graphical Processing Units (GPUs) and the exponential growth of multimodal, digital information and open-source software, these technologies have achieved remarkable feats, from overcoming visual recognition challenges in the early 2010s to powering large language models (LLMs). This progress has fueled significant excitement in robotics at the prospect of leveraging AI's potential to finally address long-standing barriers preventing the widespread deployment of robots in our daily lives. Classic control-theoretic and state estimation methods for robots, which were developed for controlled and structured industrial environments, struggle to adapt to the high complexity and intrinsic unpredictability of outdoor natural environments, or even to the diversity of objects encountered in a typical home.
+
+However, the impressive breakthroughs witnessed in areas like text generation or game-playing, such as the mastery of Go by deep learning systems, **do not directly translate to real-time physical systems**. **Action and sensing in the physical world present fundamentally different and greater challenges** than analyzing data in isolation. The state space for a physical robot is far larger, training data is not as readily available or easily generated, and crucial aspects like safety and reliability are non-negotiable. Unlike software-based systems, robots operate in complex, unpredictable environments, often involving human interaction, where errors have tangible, real-world consequences. Therefore, a direct application of AI approaches excelling in purely data and software-based environments is not feasible without significant adaptation and a deep understanding of robotics-specific issues. It is paramount to determine when AI is needed and when not, and to identify which technologies can be successfully applied to robots and how they can be adapted to specific robot designs, tasks, and environments. 
+
+### A Roadmap for AI in Robotics: Challenges Ahead
+
+To ensure the safe, ethical, and sustainable deployment of robots that work for and with humans, a clear roadmap is essential. The path forward involves tackling a range of short-term and long-term challenges, spanning software, hardware, theoretical, and algorithmic advancements. These challenges are ordered by increasing levels of complexity but may not be resolved sequentially; instead, research often proceeds in parallel across many directions.
+
+In the **short-to-medium term**, key challenges include:
+*   **Creating and maintaining representative datasets** for diverse robotic tasks and environments.
+*   **Leveraging large generative models for robotics**, while addressing the unique requirements of physical action and reasoning.
+*   **Bridging the "sim-to-real" gap** (transferring learning from simulation to physical robots) and leveraging the "real-to-sim" loop (using real-world data to enhance simulations).
+*   **Incorporating prior knowledge and combining AI with control methods** to guarantee safety and reliability.
+
+Looking further ahead, the **long-term challenges** center on enabling robots to continuously learn and adapt throughout their operational life. These include:
+*   **Life-long learning**, where robots can continually acquire new knowledge and tasks beyond initial training.
+*   **Transfer learning**, allowing robots to apply learned skills across different tasks, environments, and even different robot bodies.
+
+### **Issues to Work on TODAY: Engineering the Future of Robotics**
+
+For engineers and researchers working on leveraging AI in robotics, focusing on the following key short-to-medium term challenges is paramount for making tangible progress and enabling practical deployment. These are explained in more detail below:
+
+**1. Creating and Maintaining Representative Datasets**
+
+A fundamental limitation in robot learning, compared to other AI domains, is the scarcity of large, readily available datasets for sensing and control tasks. Unlike the vast image and text repositories used to train algorithms for vision or natural language, generating sufficient data for robotic tasks is often prohibitively costly, time-consuming, or simply impossible, as too many robots might be destroyed, or human risks created, during failed attempts.
+
+*   **Developing organized, multi-centric efforts to build large-scale, high-quality reference databases**. Projects like the Dexterity Network (Dex-Net) for grasping and manipulation are crucial examples, developing code, datasets, and algorithms for generating parallel-jaw robot grasps and metrics of grasp robustness based on physics for thousands of 3D object models. Dex-Net supports researchers in finding robust grasps and training machine-learning models to generate a wealth of grasping strategies, notably resolving the "bin-picking" problem of picking many unfamiliar objects stacked in arbitrary orientations, a long-standing benchmark challenge.
+*   **Harnessing existing data sources while addressing critical issues**. While terrestrial navigation data (e.g., from cars like Google Maps or dashcams) is growing, privacy and intellectual property concerns must be resolved to make it widely available. For aerial navigation, the challenge is even greater, requiring curated datasets that reconcile diverse viewpoints from varying altitudes and tilting orientations with respect to the ground.
+*   **Focusing on comprehensive robot action datasets**. Beyond visual information, robots need datasets of trajectories and interaction force profiles associated with various tasks. Existing datasets on specific robot bodies and tasks are often too narrow for large-scale machine learning, making combining datasets from diverse robot embodiments and skills a key strategy to achieve the necessary scale. Efforts like the Open X-Embodiment project have shown that combined datasets on robotic manipulation can more effectively train a policy for a given task than task-specific datasets.
+*   **Overcoming challenges in human-robot interaction datasets**. The complexity and variability of both physical interactions and communication with humans, coupled with the need for enhanced safety guarantees, currently prevent rapid dataset creation through real experiments or simulations. Engineers must navigate ethical issues related to data collection, storage, and labeling, ensuring subject anonymity, preventing sensitive information inference, and limiting data reuse for different training objectives. Additionally, they need to account for the vastly different ways robots and humans perceive and interact with the world; while humans rely on multimodal information (visual, acoustic, haptic), robots mostly rely on vision or other electromagnetic spectrum bands and, despite advanced sensors, often struggle to analyze complex visual scenes as humans do. Even "factories of human demonstrators" capable of benchmarking well-defined tasks will be insufficient to account for the vast complexity of human activities in homes.
+
+**2. Leveraging Large Generative Models for Robotics**
+
+Much of the current excitement around AI focuses on generative AI and LLMs, primarily based on the "transformer" deep learning model, which emerged around 2017 to speed up learning by processing information sequences in parallel. The question for robotics is which structure (inductive bias) should be embedded in robot learning algorithms to enable similar step changes in robot control.
+
+*   **Adapting existing LLMs to support human-robot interaction** based on natural language, making it easier to control robots through written or verbal instructions in any human language, and allowing them to respond accordingly.
+*   **Exploring the use of LLMs in robot navigation in new and unfamiliar environments** to support semantic guesswork and leverage their inferences.
+*   **Applying language-vision models**, trained on text/image pairs or annotated videos from the Internet, to improve object recognition in manipulation and navigation tasks, and to allow tasks to be specified in terms of what the robot can see.
+*   **Building a new generation of large visual models specifically for robotics**, trained not exclusively on Internet data, but on navigation datasets produced by cameras during actual navigation in real environments. This could start with learning to generate expectations on domestic spaces, then extend to terrestrial and aerial navigation, creating models that understand and contextualize visual information and incorporate a model of the robot’s own physics and behavior to predict what it will see next.
+*   **Developing language-vision-action models** that add action to the equation. These models are being proposed, trained by fine-tuning vision-language models with both Internet-scale visual-language tasks and robotic trajectory data, allowing them to output robot actions like LLMs output text. Key challenges remain in feeding such models with suitable datasets, effectively mapping vision to action, and providing the system with the reasoning capability to correctly anticipate the consequences of its actions. Another significant challenge is to verify the logic and feasibility of plans generated by LLMs, an issue well-addressed in logic-based planning.
+
+**3. From Simulation to Reality and Back: Bridging the Sim-to-Real Gap**
+
+Simulations offer a partial but powerful solution for generating vast amounts of training data when real-world data is scarce or dangerous to collect. Several robotic simulators (e.g., Algoryx, Bullet, Gazebo, Isaac Sim, MuJoCo, RoboDK, Genesis) have significantly improved their physics engines, partly thanks to their commercial use in computer gaming. These allow for realistic simulations of complex tasks like locomotion on challenging terrains and manipulation of realistic objects in home environments, reducing the time needed for training by enabling searches over several thousands of iterations before deploying to a physical robot.
+
+However, the **"sim-to-real gap"** remains a significant hurdle. This discrepancy arises from factors such as oversimplified simulator models, environmental variability that is too large to capture, or inaccuracies in the physics engine, especially concerning contact forces and deformable surfaces. Robots trained solely in simulation often fail or perform poorly in the real world.
+
+*   **Developing advanced techniques to bridge the sim-to-real gap effectively**. This includes collecting a small amount of real-world data to increase the realism of simulators and enabling online, real-time adaptation of robot behaviors to changing conditions, such as adapting quadruped locomotion to new terrains, payloads, or wear and tear.
+*   **Investing in the "real-to-sim" gap**. While much attention has been given to sim-to-real, the reverse—modifying simulators based on real-world data—is equally crucial but has received much less attention. Engineers need to develop methods to continually refine and improve simulator fidelity by incorporating observations and feedback from physical robots operating in real environments. This iterative process is vital for creating simulations that are truly representative and useful for robust robot learning.
+
+
+**4. Prior Knowledge and Combining AI with Control Methods**
+
+For physical robotics, a purely bottom-up, knowledge-agnostic learning approach is not the most sensible path forward. Instead, incorporating prior knowledge about robot and environment dynamics in combination with control methods that offer provable guarantees is crucial. For example, in aerial robotics, neither learning nor aerodynamics-based control alone can help approximate the agility of birds flight as it requires coupling sensing and perception with full-body dynamics to achieve instant reactions, cancel perturbations, or efficiently utilize wind. This necessitates combining learning for improved aerodynamics models with control methods for guaranteeing flight stability.
+
+*   **Addressing the "black box" nature of many current deep learning models**, which are intrinsically non-explainable. This problem is magnified in robotics, where robots operate in safety-critical scenarios like autonomous navigation or close human interaction. Regulatory agencies will not approve the deployment of such systems unless their behavior can be predicted, performance guarantees can be met, and failures can be explained and corrected, which is currently not feasible with model-free deep learning. This is a serious limitation for applications where harm to humans is possible, such as in the medical field, aeronautics, logistics, transportation, and domestic use.
+*   **Developing robots that possess explicit internal models of their actions and their consequences**. For instance, a robot in a chemical lab pouring chemicals needs to know what happens when an acid mixes with a base. When humans are involved, the robot needs an actual "theory of mind" to model human actions and how humans might interpret the robot’s task, which can quickly become more complicated than the robot's own model.
+*   **Merging control theory and machine learning to enhance learning, robustness, and safety**. One approach can be to modify standard machine learning optimization algorithms to include penalties for violating theoretical constraints, ensuring convergence, stability, or enforcing plausible physical values for quantities like stiffness and mass.
+*   **Improving deep Reinforcement Learning (RL) training**. This can involve guaranteeing that RL generates stable trajectories or enhancing it by incorporating reference motions from control models that cover a broad range of velocities and gaits, serving as targets for the RL policy to imitate.
+*   **Optimizing tasks like grasping by combining DL and control theory**. DL can find an initial policy that is then refined by model-based algorithms, significantly speeding up computation.
+
+By focusing on these immediate engineering challenges—generating robust datasets, closing the sim-to-real loop, leveraging large generative models responsibly, and integrating AI with provably safe control methods—we can pave the way for truly intelligent, reliable, and deployable robots that can safely and effectively operate in the real world alongside humans. This work is fundamental to unlocking the full potential of AI in robotics for a sustainable future.
+

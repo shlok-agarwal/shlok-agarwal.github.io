@@ -5,9 +5,9 @@ This folder contains all recipe markdown files for the website.
 ## Quick Start
 
 To add a new recipe:
-1. Create a new `.md` file in this folder (e.g., `my-new-recipe.md`)
+1. Create a new `.md` file in `_recipes/` folder (e.g., `my-new-recipe.md`)
 2. Copy the template below and fill in your recipe details
-3. Add any images to the `assets/` folder
+3. Add any images to `recipes/assets/` folder (not `_recipes/assets/`)
 4. Commit and push to GitHub
 
 ## Recipe Template
@@ -68,10 +68,12 @@ A recipe can have multiple categories. For example, a Samosa Chaat can be tagged
 
 ## Adding Images
 
-1. Save your image in the `_recipes/assets/` folder
+1. Save your image in the `recipes/assets/` folder (note: NOT `_recipes/assets/`)
 2. Reference it in your recipe:
    - Main image: `image: /recipes/assets/your-image.jpg`
    - Additional photos: under the `photos:` section
+
+**Important:** Images must be in `recipes/assets/` (without underscore), not `_recipes/assets/`. Jekyll doesn't serve static files from collection folders (folders starting with `_`).
 
 Supported formats: `.jpg`, `.jpeg`, `.png`, `.gif`, `.webp`
 
@@ -85,7 +87,7 @@ videos:
 ```
 
 ### Local Videos
-Save the video in `_recipes/assets/` and reference it:
+Save the video in `recipes/assets/` and reference it:
 ```yaml
 videos:
   - url: /recipes/assets/cooking-demo.mp4
@@ -110,13 +112,16 @@ Delete the `.md` file and any associated images in `assets/`, then commit and pu
 ## Folder Structure
 
 ```
-_recipes/
-├── README.md           # This file
-├── assets/             # All recipe images and videos
-│   ├── samosa-chaat.jpg
-│   └── berry-smoothie.jpg
-├── samosa-chaat.md     # Recipe files
-└── berry-smoothie.md
+shlok-agarwal.github.io/
+├── _recipes/               # Recipe markdown files (Jekyll collection)
+│   ├── README.md           # This file
+│   ├── samosa-chaat.md
+│   └── egg-salad-sandwich.md
+│
+└── recipes/                # Public folder for assets
+    └── assets/             # All recipe images and videos
+        ├── samosa-chaat.jpg
+        └── egg-salad-sandwich.jpg
 ```
 
 ## Testing Locally

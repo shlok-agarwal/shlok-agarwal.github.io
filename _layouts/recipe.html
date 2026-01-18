@@ -1,0 +1,236 @@
+---
+layout: default
+---
+<article class="recipe">
+  <header class="recipe-header">
+    <h1 class="recipe-title">{{ page.title }}</h1>
+    <div class="recipe-categories">
+      {% for category in page.categories %}
+        <span class="recipe-category">{{ category }}</span>
+      {% endfor %}
+    </div>
+  </header>
+
+  {% if page.image %}
+  <div class="recipe-hero-image">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  </div>
+  {% endif %}
+
+  {% if page.description %}
+  <p class="recipe-description">{{ page.description }}</p>
+  {% endif %}
+
+  <div class="recipe-content">
+    {% if page.ingredients %}
+    <section class="recipe-section">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        {% for ingredient in page.ingredients %}
+          <li>{{ ingredient }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.steps %}
+    <section class="recipe-section">
+      <h2>Steps</h2>
+      <ol class="steps-list">
+        {% for step in page.steps %}
+          <li>{{ step }}</li>
+        {% endfor %}
+      </ol>
+    </section>
+    {% endif %}
+
+    {% if page.photos %}
+    <section class="recipe-section">
+      <h2>Photos</h2>
+      <div class="recipe-photos">
+        {% for photo in page.photos %}
+          <figure>
+            <img src="{{ photo.url | relative_url }}" alt="{{ photo.caption | default: page.title }}">
+            {% if photo.caption %}
+            <figcaption>{{ photo.caption }}</figcaption>
+            {% endif %}
+          </figure>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if page.videos %}
+    <section class="recipe-section">
+      <h2>Videos</h2>
+      <div class="recipe-videos">
+        {% for video in page.videos %}
+          <div class="video-container">
+            {% if video.youtube_id %}
+              <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/{{ video.youtube_id }}"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            {% elsif video.url %}
+              <video controls>
+                <source src="{{ video.url | relative_url }}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            {% endif %}
+            {% if video.caption %}
+            <p class="video-caption">{{ video.caption }}</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if page.notes %}
+    <section class="recipe-section">
+      <h2>Notes</h2>
+      <p>{{ page.notes }}</p>
+    </section>
+    {% endif %}
+
+    {{ content }}
+  </div>
+
+  <footer class="recipe-footer">
+    <a href="{{ '/recipes/' | relative_url }}">&larr; Back to All Recipes</a>
+  </footer>
+</article>
+
+<style>
+.recipe {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.recipe-header {
+  margin-bottom: 1.5rem;
+}
+
+.recipe-title {
+  margin-bottom: 0.5rem;
+}
+
+.recipe-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.recipe-category {
+  background: #e9ecef;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.85rem;
+  color: #495057;
+}
+
+.recipe-hero-image img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.recipe-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.recipe-section {
+  margin-bottom: 2rem;
+}
+
+.recipe-section h2 {
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.ingredients-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.ingredients-list li {
+  margin-bottom: 0.5rem;
+}
+
+.steps-list {
+  padding-left: 1.5rem;
+}
+
+.steps-list li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.recipe-photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.recipe-photos figure {
+  margin: 0;
+}
+
+.recipe-photos img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.recipe-photos figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.recipe-videos {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.video-container {
+  position: relative;
+}
+
+.video-container iframe,
+.video-container video {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.video-caption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.recipe-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.recipe-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.recipe-footer a:hover {
+  text-decoration: underline;
+}
+</style>

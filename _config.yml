@@ -40,12 +40,16 @@ collections:
   projects:
     output: true
     permalink: /:collection/:name/
+  recipes:
+    output: true
+    permalink: /recipes/:name/
 
 # Navigation
 header_pages:
   - about.md
   - resume.md
   - blog.md
+  - recipes.md
   
 # Social media links
 social:

@@ -5,10 +5,10 @@ categories:
   - Meal
   - Sandwich
 description: A classic egg salad sandwich made healthy! A filling lunch, perfect for those busy days when you need a good midday meal to keep you energized. This egg salad sandwich contains lots of protein, healthy fats, fiber and whole carbs
-image: /recipes/assets/egg-salad-sandwich-dish.png
+image: /assets/recipes/egg-salad-sandwich-dish.jpg
 
 photos:
-  - url: /recipes/assets/egg-salad-sandwich-ingredients.jpg
+  - url: /assets/recipes/egg-salad-sandwich-ingredients.jpg
     caption: Ingredients
 
 ingredients:

@@ -1,13 +1,13 @@
 # Recipes Collection
 
-This folder contains all recipe markdown files for the website.
+This folder contains recipe markdown files. Images go in `assets/recipes/`.
 
 ## Quick Start
 
 To add a new recipe:
 1. Create a new `.md` file in `_recipes/` folder (e.g., `my-new-recipe.md`)
 2. Copy the template below and fill in your recipe details
-3. Add any images to `recipes/assets/` folder (not `_recipes/assets/`)
+3. Add any images to `assets/recipes/` folder
 4. Commit and push to GitHub
 
 ## Recipe Template
@@ -20,7 +20,7 @@ categories:
   - Category1
   - Category2
 description: A brief description of the recipe (shown on recipe cards).
-image: /recipes/assets/your-image.jpg
+image: /assets/recipes/your-image.jpg
 
 ingredients:
   - Ingredient 1
@@ -33,27 +33,19 @@ steps:
   - Third step of the recipe.
 
 photos:
-  - url: /recipes/assets/photo1.jpg
+  - url: /assets/recipes/photo1.jpg
     caption: Description of photo 1
-  - url: /recipes/assets/photo2.jpg
-    caption: Description of photo 2
 
 videos:
   - youtube_id: VIDEO_ID_HERE
     caption: Video description
-  # OR for local videos:
-  - url: /recipes/assets/video.mp4
-    caption: Video description
 
 notes: Any additional tips or notes about the recipe.
 ---
-
-Optional markdown content can go here for any extra information.
 ```
 
 ## Available Categories
 
-Use these categories (case-sensitive):
 - Indian
 - Chaat
 - Sandwich
@@ -64,69 +56,28 @@ Use these categories (case-sensitive):
 - Snack
 - Meal
 
-A recipe can have multiple categories. For example, a Samosa Chaat can be tagged with `Indian`, `Chaat`, and `Snack`.
+A recipe can have multiple categories.
 
 ## Adding Images
 
-1. Save your image in the `recipes/assets/` folder (note: NOT `_recipes/assets/`)
-2. Reference it in your recipe:
-   - Main image: `image: /recipes/assets/your-image.jpg`
-   - Additional photos: under the `photos:` section
-
-**Important:** Images must be in `recipes/assets/` (without underscore), not `_recipes/assets/`. Jekyll doesn't serve static files from collection folders (folders starting with `_`).
-
-Supported formats: `.jpg`, `.jpeg`, `.png`, `.gif`, `.webp`
-
-## Adding Videos
-
-### YouTube Videos
-```yaml
-videos:
-  - youtube_id: dQw4w9WgXcQ
-    caption: How to make this dish
-```
-
-### Local Videos
-Save the video in `recipes/assets/` and reference it:
-```yaml
-videos:
-  - url: /recipes/assets/cooking-demo.mp4
-    caption: Step-by-step demonstration
-```
-
-## File Naming
-
-- Use lowercase letters
-- Replace spaces with hyphens
-- Keep names descriptive but concise
-- Examples: `samosa-chaat.md`, `berry-smoothie.md`, `grilled-cheese-sandwich.md`
-
-## Editing Recipes
-
-Simply edit the `.md` file, commit, and push. The website will update automatically.
-
-## Removing Recipes
-
-Delete the `.md` file and any associated images in `assets/`, then commit and push.
+1. Save images in `assets/recipes/` folder
+2. Reference with path `/assets/recipes/your-image.jpg`
 
 ## Folder Structure
 
 ```
 shlok-agarwal.github.io/
-├── _recipes/               # Recipe markdown files (Jekyll collection)
-│   ├── README.md           # This file
-│   ├── samosa-chaat.md
-│   └── egg-salad-sandwich.md
-│
-└── recipes/                # Public folder for assets
-    └── assets/             # All recipe images and videos
-        ├── samosa-chaat.jpg
-        └── egg-salad-sandwich.jpg
+├── _recipes/                    # Recipe markdown files
+│   ├── egg-salad-sandwich.md
+│   └── ...
+└── assets/
+    └── recipes/                 # Recipe images
+        ├── egg-salad-sandwich-dish.jpg
+        └── ...
 ```
 
 ## Testing Locally
 
-Run the Jekyll server to preview changes:
 ```bash
 bundle exec jekyll serve
 ```

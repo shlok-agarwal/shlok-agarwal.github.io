@@ -5,11 +5,11 @@ categories:
   - Meal
   - Salad
 description: A roasted sweet potato, chickpea & tomato salad with peanut butter dressing and rice cakes. Complete with protein, healthy fats, and fiber, this salad will keep you full from lunch until dinner
-image: /recipes/assets/roasted-sweet-potato-chickpea-salad-ingredients.jpg
+image: /recipes/assets/roasted-sweet-potato-chickpea-salad-dish.jpg
 
 photos:
-  - url: /recipes/assets/roasted-sweet-potato-chickpea-salad-dish.jpg
-    caption: Roasted Sweet Potato and Chickpea Salad ready to serve
+  - url: /recipes/assets/roasted-sweet-potato-chickpea-salad-ingredients.jpg
+    caption: Ingredients
 
 ingredients:
   - Serves 2

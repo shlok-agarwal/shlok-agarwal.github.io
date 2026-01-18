@@ -22,6 +22,22 @@ layout: default
   {% endif %}
 
   <div class="recipe-content">
+    {% if page.photos %}
+    <section class="recipe-section">
+      <h2>Photos</h2>
+      <div class="recipe-photos">
+        {% for photo in page.photos %}
+          <figure>
+            <img src="{{ photo.url | relative_url }}" alt="{{ photo.caption | default: page.title }}">
+            {% if photo.caption %}
+            <figcaption>{{ photo.caption }}</figcaption>
+            {% endif %}
+          </figure>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
     {% if page.ingredients %}
     <section class="recipe-section">
       <h2>Ingredients</h2>
@@ -41,22 +57,6 @@ layout: default
           <li>{{ step }}</li>
         {% endfor %}
       </ol>
-    </section>
-    {% endif %}
-
-    {% if page.photos %}
-    <section class="recipe-section">
-      <h2>Photos</h2>
-      <div class="recipe-photos">
-        {% for photo in page.photos %}
-          <figure>
-            <img src="{{ photo.url | relative_url }}" alt="{{ photo.caption | default: page.title }}">
-            {% if photo.caption %}
-            <figcaption>{{ photo.caption }}</figcaption>
-            {% endif %}
-          </figure>
-        {% endfor %}
-      </div>
     </section>
     {% endif %}
 

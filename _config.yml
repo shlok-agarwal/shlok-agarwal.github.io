@@ -47,7 +47,6 @@ collections:
 # Navigation
 header_pages:
   - about.md
-  - resume.md
   - blog.md
   - recipes.md
   

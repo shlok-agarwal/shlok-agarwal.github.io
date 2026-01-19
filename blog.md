@@ -14,6 +14,16 @@ Welcome to my blog where I share insights about robotics, legged locomotion, and
 
 ## Latest Posts
 
+### [Personalized Modular Claude Code Configuration for Engineers](/2026/01/19/modular-claude-code-configuration.html)
+*January 19, 2026*
+
+Context engineering techniques for getting better results from LLMs like Claude Code
+
+### [AI in Robotics: What should you work on today!](/2025/09/12/ai-robotics-today.html)
+*September 12, 2025*
+
+A roadmap for AI in robotics - key challenges engineers should focus on today
+
 ### [Particle Filter for Localization](_posts/2017-02-23-particle_filter_localization.md)
 *February 23, 2017*
 

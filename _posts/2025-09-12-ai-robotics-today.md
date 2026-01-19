@@ -4,6 +4,7 @@ title: "AI in Robotics: What should you work on today!"
 date: 2025-09-12
 categories: [robotics, AI]
 tags: [AI]
+excerpt: "A roadmap for AI in robotics - key challenges engineers should focus on today to advance the field."
 ---
 
 

@@ -4,6 +4,7 @@ title: "Personalized Modular Claude Code Configuration for Engineers"
 date: 2026-01-19
 categories: [AI, tools]
 tags: [AI, Claude, workflow]
+excerpt: "Context engineering techniques for getting better results from LLMs like Claude Code. A modular .claude configuration that anyone can customize."
 ---
 
 # Personalized Modular Claude Code Configuration for Engineers

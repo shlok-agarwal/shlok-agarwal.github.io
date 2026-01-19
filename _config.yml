@@ -22,6 +22,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+# Post settings
+excerpt_separator: <!--more-->
+
 # Exclude from processing
 exclude:
   - .sass-cache/

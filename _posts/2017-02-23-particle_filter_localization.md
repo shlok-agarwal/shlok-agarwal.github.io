@@ -4,6 +4,7 @@ title: "Particle Filter for Localization"
 date: 2017-02-23
 categories: [robotics, navigation]
 tags: [navigation]
+excerpt: "An intuitive guide to using particle filters for robust robot localization in known maps."
 ---
 
 # Particle Filter for Localization

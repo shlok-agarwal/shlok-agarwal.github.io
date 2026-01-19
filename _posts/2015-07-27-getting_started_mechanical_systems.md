@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "Getting Started with Mechanical Systems for Humanoid Robots"
 date: 2015-07-27
+categories: [robotics, hardware]
 tags: [Robotics, Humanoid, Mechanical Systems]
+excerpt: "A guide sharing early experiences in designing and building small humanoid robots, focusing on mechanical structure, fabrication, and actuator integration."
 ---
 
 # Getting Started with Mechanical Systems for Humanoid Robots

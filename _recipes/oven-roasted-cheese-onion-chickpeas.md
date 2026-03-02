@@ -4,10 +4,10 @@ title: Oven Roasted "Cheese" & Onion Chickpeas
 categories:
   - Snack
 description: Small, filling, roasted chickpeas seasoned to taste like cheese and onion.
-image: TODO
+image: /assets/recipes/oven-roasted-cheese-onion-chickpeas-dish.jpg
 
 photos:
-  - url: TODO
+  - url: /assets/recipes/oven-roasted-cheese-onion-chickpeas-ingredients.jpg
     caption: Ingredients
 
 ingredients:

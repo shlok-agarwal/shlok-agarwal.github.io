@@ -4,10 +4,10 @@ title: Chocolate, Blueberry & Almond Overnight Oats
 categories:
   - Breakfast
 description: Simple, healthy, filling and chocolatey! A quick prep breakfast that is ready to grab and go.
-image: TODO
+image: /assets/recipes/chocolate-blueberry-almond-overnight-oats-dish.jpg
 
 photos:
-  - url: TODO
+  - url: /assets/recipes/chocolate-blueberry-almond-overnight-oats-ingredients.jpg
     caption: Ingredients
 
 ingredients:

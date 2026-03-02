@@ -4,10 +4,10 @@ title: Brown Rice Pasta with Lentils, Mushrooms & Brussels Sprouts
 categories:
   - Meal
 description: A saucy mix of lentils, mushrooms and shredded Brussels sprouts served with brown rice pasta and marinara sauce.
-image: TODO
+image: /assets/recipes/brown-rice-pasta-with-lentils-mushrooms-brussels-sprouts-dish.jpg
 
 photos:
-  - url: TODO
+  - url: /assets/recipes/brown-rice-pasta-with-lentils-mushrooms-brussels-sprouts-ingredients.jpg
     caption: Ingredients
 
 ingredients:

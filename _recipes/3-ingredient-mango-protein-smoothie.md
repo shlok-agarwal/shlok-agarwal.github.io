@@ -5,10 +5,10 @@ categories:
   - Snack
   - Smoothie
 description: Sweet & creamy mango smoothie filled with protein, whole carbs and fiber.
-image: TODO
+image: /assets/recipes/3-ingredient-mango-protein-smoothie-dish.jpg
 
 photos:
-  - url: TODO
+  - url: /assets/recipes/3-ingredient-mango-protein-smoothie-ingredients.jpg
     caption: Ingredients
 
 ingredients:

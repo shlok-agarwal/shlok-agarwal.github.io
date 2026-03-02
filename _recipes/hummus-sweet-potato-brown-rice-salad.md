@@ -4,10 +4,10 @@ title: Hummus, Sweet Potato & Brown Rice Salad
 categories:
   - Meal
 description: A colorful salad with roasted veggies, brown rice, and hummus.
-image: TODO
+image: /assets/recipes/hummus-sweet-potato-brown-rice-salad-dish.jpg
 
 photos:
-  - url: TODO
+  - url: /assets/recipes/hummus-sweet-potato-brown-rice-salad-ingredients.jpg
     caption: Ingredients
 
 ingredients:

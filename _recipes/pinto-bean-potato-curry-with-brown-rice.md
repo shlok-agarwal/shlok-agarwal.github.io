@@ -4,10 +4,10 @@ title: Pinto Bean & Potato Curry with Brown Rice
 categories:
   - Meal
 description: A simple, nourishing, and hearty plant-based curry with brown rice.
-image: TODO
+image: /assets/recipes/pinto-bean-potato-curry-with-brown-rice-dish.jpg
 
 photos:
-  - url: TODO
+  - url: /assets/recipes/pinto-bean-potato-curry-with-brown-rice-ingredients.jpg
     caption: Ingredients
 
 ingredients:

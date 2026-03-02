@@ -4,10 +4,10 @@ title: Banana & Oat Toaster Pancakes
 categories:
   - Breakfast
 description: Enjoy all the benefits of a perfect breakfast stack without the effort. These 3 ingredient pancakes are easy to prep and heat in the toaster.
-image: TODO
+image: /assets/recipes/banana-oat-toaster-pancakes-dish.jpg
 
 photos:
-  - url: TODO
+  - url: /assets/recipes/banana-oat-toaster-pancakes-ingredients.jpg
     caption: Ingredients
 
 ingredients:

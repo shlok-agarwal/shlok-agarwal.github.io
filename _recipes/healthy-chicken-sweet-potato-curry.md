@@ -4,11 +4,7 @@ title: Healthy Chicken & Sweet Potato Curry
 categories:
   - Meal
 description: A healthy, warming curry packed with protein and vegetables. Served with basmati rice, it creates a hearty dinner.
-image: TODO
-
-photos:
-  - url: TODO
-    caption: Ingredients
+image: /assets/recipes/healthy-chicken-sweet-potato-curry-dish.jpg
 
 ingredients:
   - Serves 4

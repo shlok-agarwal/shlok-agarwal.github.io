@@ -4,10 +4,10 @@ title: Healthy Peanut Butter Coconut Cookies
 categories:
   - Snack
 description: Healthy cookies packed with protein, fiber and healthy fats.
-image: TODO
+image: /assets/recipes/healthy-peanut-butter-coconut-cookies-dish.jpg
 
 photos:
-  - url: TODO
+  - url: /assets/recipes/healthy-peanut-butter-coconut-cookies-ingredients.jpg
     caption: Ingredients
 
 ingredients:

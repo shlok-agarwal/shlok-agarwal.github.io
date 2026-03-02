@@ -4,10 +4,10 @@ title: Banana & Peanut Butter Overnight Oats
 categories:
   - Breakfast
 description: A quick meal prep breakfast requiring almost no effort.
-image: TODO
+image: /assets/recipes/banana-peanut-butter-overnight-oats-dish.jpg
 
 photos:
-  - url: TODO
+  - url: /assets/recipes/banana-peanut-butter-overnight-oats-ingredients.jpg
     caption: Ingredients
 
 ingredients:

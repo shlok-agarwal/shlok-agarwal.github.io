@@ -4,10 +4,10 @@ title: Banana Oat Toaster Muffins
 categories:
   - Breakfast
 description: Easy, healthy banana & oat toaster muffins. It only takes 2 minutes to pop them into the toaster in the morning to give them that 'fresh out of the oven' taste.
-image: TODO
+image: /assets/recipes/banana-oat-toaster-muffins-dish.jpg
 
 photos
-  - url: TODO
+  - url: /assets/recipes/banana-oat-toaster-muffins-ingredients.jpg
     caption: Ingredients
 
 ingredients:

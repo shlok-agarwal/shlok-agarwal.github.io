@@ -4,11 +4,7 @@ title: Creamy Oatmeal with Banana Slices & Raw Walnuts
 categories:
   - Breakfast
 description: A healthy, filling breakfast that provides sustained energy. This oatmeal is creamy and topped with fresh fruit and healthy fats.
-image: TODO
-
-photos:
-  - url: TODO
-    caption: Ingredients
+image: /assets/recipes/creamy-oatmeal-with-banana-slices-raw-walnuts-dish.jpg
 
 ingredients:
   - Serves 1

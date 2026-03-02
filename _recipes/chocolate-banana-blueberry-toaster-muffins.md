@@ -4,10 +4,10 @@ title: Chocolate, Banana & Blueberry Toaster Muffins
 categories:
   - Breakfast
 description: Easy and healthy chocolate muffins that can be popped in the toaster for a fresh taste.
-image: TODO
+image: /assets/recipes/chocolate-banana-blueberry-toaster-muffins-dish.jpg
 
 photos:
-  - url: TODO
+  - url: /assets/recipes/chocolate-banana-blueberry-toaster-muffins-ingredients.jpg
     caption: Ingredients
 
 ingredients:

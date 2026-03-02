@@ -4,10 +4,10 @@ title: Hummus & Roasted Pepper Sandwich
 categories:
   - Meal
 description: A tasty sandwich featuring roasted bell pepper slices, hummus, and seeds.
-image: TODO
+image: /assets/recipes/hummus-roasted-pepper-sandwich-dish.jpg
 
 photos:
-  - url: TODO
+  - url: /assets/recipes/hummus-roasted-pepper-sandwich-ingredients.jpg
     caption: Ingredients
 
 ingredients:

@@ -5,10 +5,10 @@ categories:
   - Breakfast
   - Smoothie
 description: A quick, healthy smoothie to kickstart your morning! Packed with nutrients, vitamins, antioxidants, fiber, protein, healthy fats, and whole carbs.
-image: TODO
+image: /assets/recipes/mixed-berry-banana-protein-smoothie-dish.jpg
 
 photos:
-  - url: TODO
+  - url: /assets/recipes/mixed-berry-banana-protein-smoothie-ingredients.jpg
     caption: Ingredients
 
 ingredients:
